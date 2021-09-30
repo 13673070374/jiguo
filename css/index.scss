@@ -1,0 +1,88 @@
+$width:1080px;
+$auto:0 auto;
+$color:#fc584e;
+
+//轮播图部分
+.banner {
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+
+    .slides {
+        width: 1519px;
+        height: 300px;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+
+        .slide-list {
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            li {
+                float: left;
+
+                img {
+                    width: 1920px;
+                    height: 300px;
+                }
+            }
+        }
+
+        .point {
+            position: absolute;
+            left: 50%;
+            bottom: 10px;
+            transform: translateX(-50%);
+
+            span {
+                float: left;
+                font-size: 16px;
+                padding: 5px 10px;
+                background-color: #fc584e;
+                color: white;
+                margin-right: 10px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fc584e;
+                    background: white;
+                }
+            }
+
+            .on {
+                color: #fc584e;
+                background: white;
+            }
+        }
+
+        >span {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 37px;
+            height: 78px;
+            cursor: pointer;
+        }
+
+        .next {
+            right: 10px;
+            background: url(./../img/next.png) no-repeat 0 0;
+        }
+
+        .prev {
+            left: 10px;
+            background: url(./../img/prev.png) no-repeat 0 0;
+        }
+    }
+}
+
+//热门试用
+.hot{
+    width: $width;
+    margin: $auto;
+    .title{
+        font-size: 18px;
+    }
+}

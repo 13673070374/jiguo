@@ -1,0 +1,91 @@
+$width:1080px;
+$auto:0 auto;
+$color:#fc584e;
+
+//顶部
+.top-bar {
+    width: $width;
+    margin: $auto;
+    margin-top: 20px;
+
+    .logo {
+        float: left;
+
+        a {
+            display: inline-block;
+
+            img {
+                width: 130px;
+                height: 50px;
+            }
+        }
+    }
+
+    .nav {
+        float: left;
+        padding-top: 10px;
+        margin-left: 20px;
+
+        li {
+            float: left;
+            width: 90px;
+
+            a {
+                display: inline-block;
+                width: 100%;
+                font-size: 16px;
+                color: #2c2c2c;
+                line-height: 34px;
+                text-align: center;
+
+                &:hover {
+                    color: $color;
+                }
+            }
+        }
+    }
+
+    .search {
+        float: left;
+        margin-top: 8px;
+
+        input {
+            width: 300px;
+            border: 2px solid $color;
+            padding: 5px 10px;
+            height: 36px;
+            margin-right: 5px;
+        }
+
+        a {
+            display: inline-block;
+            font-size: 22px;
+            position: relative;
+            top: 3px;
+            transition: all .2s linear;
+            &:hover {
+                color: $color;
+            }
+        }
+    }
+
+    .login {
+        float: right;
+        margin-top: 18px;
+
+        span {
+            padding: 3px 10px;
+            border: 1px solid $color;
+            color: $color;
+            border-radius: 4px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: all .2s linear;
+
+            &:hover {
+                color: white;
+                background-color: $color;
+            }
+        }
+    }
+}

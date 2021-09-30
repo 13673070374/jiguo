@@ -1,0 +1,114 @@
+$width:1080px;
+$auto:0 auto;
+$color:#fc584e;
+
+.footer-bar {
+    width: 100%;
+    background-color: rgb(80, 80, 80);
+    padding-bottom: 20px;
+
+    .footer {
+        position: relative;
+        margin: $auto;
+        width: $width;
+        padding-top: 40px;
+
+        .code {
+            float: left;
+
+            img {
+                width: 160px;
+                height: 160px;
+            }
+
+        }
+
+        .info {
+            float: left;
+            margin-left: 25px;
+
+            img {
+                margin-bottom: 10px;
+            }
+
+            p {
+                width: 121px;
+                font-size: 12px;
+                margin-top: 12px;
+                color: #b7b9b5;
+                line-height: 20px;
+            }
+        }
+
+        .link {
+            float: left;
+            margin-left: 40px;
+
+            >ul {
+                float: left;
+                margin-right: 40px;
+
+                li {
+                    color: white;
+
+                    a {
+                        display: inline-block;
+                        color: #b7b9b5;
+                        font-size: 12px;
+                        margin-bottom: 8px;
+
+                        &:hover {
+                            color: $color;
+                        }
+                    }
+                }
+
+                li:first-child {
+                    margin-bottom: 20px;
+                }
+
+            }
+
+            div {
+                float: left;
+                margin-right: 40px;
+
+                h1 {
+                    color: white;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    float: left;
+
+                    li {
+                        a {
+                            display: inline-block;
+                            color: #b7b9b5;
+                            font-size: 12px;
+                            margin-bottom: 8px;
+
+                            &:hover {
+                                color: $color;
+                            }
+                        }
+                    }
+                }
+
+                ul:nth-child(2) {
+                    margin-right: 20px;
+                }
+            }
+
+        }
+
+    }
+
+    .copy {
+        text-align: center;
+        font-size: 14px;
+        color: #b7b9b5;
+        margin-top: 60px;
+    }
+}

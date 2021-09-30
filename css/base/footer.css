@@ -1,0 +1,104 @@
+.footer-bar {
+  width: 100%;
+  background-color: #505050;
+  padding-bottom: 20px;
+}
+
+.footer-bar .footer {
+  position: relative;
+  margin: 0 auto;
+  width: 1080px;
+  padding-top: 40px;
+}
+
+.footer-bar .footer .code {
+  float: left;
+}
+
+.footer-bar .footer .code img {
+  width: 160px;
+  height: 160px;
+}
+
+.footer-bar .footer .info {
+  float: left;
+  margin-left: 25px;
+}
+
+.footer-bar .footer .info img {
+  margin-bottom: 10px;
+}
+
+.footer-bar .footer .info p {
+  width: 121px;
+  font-size: 12px;
+  margin-top: 12px;
+  color: #b7b9b5;
+  line-height: 20px;
+}
+
+.footer-bar .footer .link {
+  float: left;
+  margin-left: 40px;
+}
+
+.footer-bar .footer .link > ul {
+  float: left;
+  margin-right: 40px;
+}
+
+.footer-bar .footer .link > ul li {
+  color: white;
+}
+
+.footer-bar .footer .link > ul li a {
+  display: inline-block;
+  color: #b7b9b5;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.footer-bar .footer .link > ul li a:hover {
+  color: #fc584e;
+}
+
+.footer-bar .footer .link > ul li:first-child {
+  margin-bottom: 20px;
+}
+
+.footer-bar .footer .link div {
+  float: left;
+  margin-right: 40px;
+}
+
+.footer-bar .footer .link div h1 {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-bar .footer .link div ul {
+  float: left;
+}
+
+.footer-bar .footer .link div ul li a {
+  display: inline-block;
+  color: #b7b9b5;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.footer-bar .footer .link div ul li a:hover {
+  color: #fc584e;
+}
+
+.footer-bar .footer .link div ul:nth-child(2) {
+  margin-right: 20px;
+}
+
+.footer-bar .copy {
+  text-align: center;
+  font-size: 14px;
+  color: #b7b9b5;
+  margin-top: 60px;
+}

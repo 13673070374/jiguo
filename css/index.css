@@ -1,0 +1,83 @@
+.banner {
+  width: 100%;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.banner .slides {
+  width: 1519px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner .slides .slide-list {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.banner .slides .slide-list li {
+  float: left;
+}
+
+.banner .slides .slide-list li img {
+  width: 1920px;
+  height: 300px;
+}
+
+.banner .slides .point {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+
+.banner .slides .point span {
+  float: left;
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #fc584e;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.banner .slides .point span:hover {
+  color: #fc584e;
+  background: white;
+}
+
+.banner .slides .point .on {
+  color: #fc584e;
+  background: white;
+}
+
+.banner .slides > span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 37px;
+  height: 78px;
+  cursor: pointer;
+}
+
+.banner .slides .next {
+  right: 10px;
+  background: url(./../img/next.png) no-repeat 0 0;
+}
+
+.banner .slides .prev {
+  left: 10px;
+  background: url(./../img/prev.png) no-repeat 0 0;
+}
+
+.hot {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.hot .title {
+  font-size: 18px;
+}
