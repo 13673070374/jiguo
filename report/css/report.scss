@@ -1,0 +1,205 @@
+$width:1080px;
+$auto:0 auto;
+$color:#fc584e;
+
+.report-bar {
+    padding-bottom: 30px;
+
+    .top {
+        .title {
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .nav {
+            text-align: center;
+            margin-top: 20px;
+
+            span {
+                display: inline-block;
+                height: 50px;
+                line-height: 36px;
+                box-sizing: border-box;
+                font-size: 18px;
+                padding: 10px 50px;
+                color: #a3a1a2;
+                margin-right: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .report {
+        background: #f7f7f7;
+        padding-bottom: 30px;
+
+        .main {
+            width: $width;
+            margin: $auto;
+
+            .left {
+                float: left;
+                width: 700px;
+
+                .new,.hot{
+                    margin-top: 30px;
+
+                    .one {
+                        width: 700px;
+                        height: 413px;
+                        border: 1px solid #dfdfdf;
+                        box-sizing: content-box;
+                        border-radius: 6px;
+                        background: url(./../../img/bg1.jpg) no-repeat 0 0;
+                        background-size: cover;
+                        position: relative;
+
+                        .info {
+                            width: 100%;
+                            position: absolute;
+                            bottom: 0px;
+                            background: #f4efeb;
+                            padding: 25px;
+                            opacity: .8;
+
+                            p{
+                                font-size: 16px;
+                                color: #666;
+                                margin-bottom: 30px;
+                            }
+                            .info-left {
+                                float: left;
+
+                                span {
+                                    font-size: 12px;
+                                    color: #999;
+
+                                    &:first-child {
+                                        width: 13px;
+                                        height: 18px;
+                                        display: inline-block;
+                                        background: url(./../../img/comma.png) no-repeat center center;
+                                        vertical-align: middle;
+                                    }
+                                }
+                            }
+
+                            .info-right {
+                                float: right;
+
+                                span {
+                                    font-size: 12px;
+                                    color: #999;
+                                    width: 12px;
+                                    height: 12px;
+                                    display: inline-block;
+
+                                    &:nth-child(1) {
+                                        background: url(./../../img/zan.png) no-repeat 0 0;
+                                    }
+
+                                    &:nth-child(3) {
+                                        background: url(./../../img/reply.png) no-repeat 0 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .link{
+                        padding: 15px 0;
+                        border: 1px solid #dfdfdf;
+                        border-radius: 6px;
+                        text-align: center;
+                        font-size: 14px;
+                        color: #999;
+                        margin: 15px 0;
+                        cursor: pointer;
+                        &:hover{
+                            color: white;
+                            background: $color;
+                            transition: all .2s linear;
+                        }
+                    }
+
+                    .two{
+                        background: url(./../../img/bg2.jpg) no-repeat 0 0;
+                        background-size: cover;
+                    }
+                    .three{
+                        background: url(./../../img/bg3.jpg) no-repeat 0 0;
+                        background-size: cover;
+                    }
+                    .four{
+                        background: url(./../../img/bg4.jpg) no-repeat 0 0;
+                        background-size: cover;
+                    }
+                    .five{
+                        background: url(./../../img/bg5.jpg) no-repeat 0 0;
+                        background-size: cover;
+                    }
+
+                    //最热
+                    .hot-one{
+                        background: url(./../../img/bg8.jpg) no-repeat 0 0;
+                        background-size: cover;
+                    }
+                    .hot-two{
+                        background: url(./../../img/bg7.jpg) no-repeat 0 0;
+                        background-size: cover;
+                    }
+                    .hot-three{
+                        background: url(./../../img/bg6.jpg) no-repeat 0 0;
+                        background-size: cover;
+                    }
+                    .hot-four{
+                        background: url(./../../img/bg5.jpg) no-repeat 0 0;
+                        background-size: cover;
+                    }
+                    .hot-five{
+                        background: url(./../../img/bg4.jpg) no-repeat 0 0;
+                        background-size: cover;
+                    }
+                }
+
+                .hot{
+                    display: none;
+                }
+            }
+
+            .right{
+                float: right;
+                width: 300px;
+                margin-top: 30px;
+
+                h1 {
+                    font-size: 20px;
+                    padding: 5px 10px;
+                    border-left: 5px solid $color;
+                }
+
+                img{
+                    margin-top: 15px;
+                }
+                h2{
+                    font-size: 16px;
+                    color: #333;
+                    font-weight: 600;
+                    margin: 15px 0;
+                }
+                .txt{
+                    font-size: 12px;
+                    color: #999;
+                    line-height: 20px;
+
+                }
+                .bot{
+                    margin-top: 60px;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,197 @@
+$width:1080px;
+$auto:0 auto;
+$color:#fc584e;
+
+.detail {
+    width: 100%;
+    background: #f7f7f7;
+
+    .top {
+        width: $width;
+        margin: $auto;
+        padding-top: 20px;
+
+        a,
+        span {
+            font-size: 14px;
+            color: #999;
+            margin-right: 5px;
+        }
+
+        a:hover {
+            color: $color;
+        }
+    }
+
+    .main {
+        width: $width;
+        margin: $auto;
+        padding-bottom: 30px;
+        .left {
+            float: left;
+            width: 700px;
+            background: #fff;
+            border-radius: 8px;
+            margin-top: 20px;
+
+            .title {
+               padding: 30px 20px;
+                border-bottom: 2px solid #dfdfdf;
+
+                h1 {
+                    font-size: 22px;
+                }
+
+                >div {
+                    margin-top: 25px;
+                    >p {
+                        float: left;
+
+                        span:nth-child(1) {
+                            width: 13px;
+                            height: 18px;
+                            display: inline-block;
+                            background: url(./../../img/comma.png) no-repeat 0 0;
+                            vertical-align: middle;
+                        }
+
+                        span:nth-child(2) {
+                            font-size: 12px;
+                            color: #999;
+                        }
+                    }
+
+                    >span {
+                        float: right;
+                        font-size: 12px;
+                        color: #999;
+                    }
+                }
+
+
+            }
+
+            .text{
+                padding: 30px 20px;
+                $color1:#333;
+                $color2:#666;
+                $line_height:25px;
+                p{
+                    font-size: 14px;
+                    color: $color1;
+                    line-height: $line_height;
+                }
+
+                .detail-one{
+                    h2{
+                        font-size: 16px;
+                        color: #333;
+                        font-weight: 600;
+                        text-align: center;
+                        margin-bottom: 10px;
+                    }
+                    img{
+                        margin-top: 30px;
+                        margin-bottom: 28px;
+                    }
+                }
+
+                .two{
+                    margin-top:30px;
+                    p{
+                        &:nth-child(7),
+                        &:nth-child(8){
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+
+                .three{
+                    margin-top: 30px;
+                    >div{
+                        color: #999;
+                        font-size: 14px;
+                        margin-top: 30px;
+                    }
+                    img:nth-child(3){
+                        margin-top: 5px;
+                    }
+                    .top{
+                        margin-top: 35px;
+                        padding: 0px;
+                    }
+                }
+
+                .bottom{
+                    margin-top: 60px;
+                    padding-bottom: 20px;
+                    p{
+                        color: #999;
+                    }
+                }
+            }
+        }
+
+        .right{
+            float: right;
+            width: 270px;
+            height: 110px;
+            box-sizing: border-box;
+            border: 1px solid #dfdfdf;
+            background: #fff;
+            border-radius: 8px;
+            margin-top: 20px;
+            div{
+                float: left;
+                width: 50%;
+                height: 100%;
+                text-align: center;
+            }
+
+            .like{
+                border-right: 1px solid #dfdfdf;
+                span{
+                    width: 26px;
+                    height: 26px;
+                    display: inline-block;
+                    background: url(./../../img/xinRedo.png) no-repeat 0 0;
+                    margin-top: 28px;
+                    cursor: pointer;
+                }
+                p{
+                    font-size: 12px;
+                    color: #999;
+                    margin-top: 15px;
+                }
+            }
+
+            .share{
+                span{
+                    width: 20px;
+                    height: 22px;
+                    display: inline-block;
+                    background: url(./../../img/share_yj1.png) no-repeat 0 0;
+                    margin-top: 28px;
+                    cursor: pointer;
+                }
+
+                p{
+                    font-size: 12px;
+                    color: #999;
+                    margin-top: 15px;
+                }
+            }
+
+            .bshare-custom{
+                width: 100%;
+                height: 50px;
+                margin-top: 20px;
+                border: 1px solid #dfdfdf;
+                background: #fff;
+                padding-top: 15px;
+                display: none;
+
+            }
+        }
+    }
+}

@@ -1,34 +1,34 @@
-.top-bar {
+.top .top-bar {
   width: 1080px;
   margin: 0 auto;
   margin-top: 20px;
 }
 
-.top-bar .logo {
+.top .top-bar .logo {
   float: left;
 }
 
-.top-bar .logo a {
+.top .top-bar .logo a {
   display: inline-block;
 }
 
-.top-bar .logo a img {
+.top .top-bar .logo a img {
   width: 130px;
   height: 50px;
 }
 
-.top-bar .nav {
+.top .top-bar .nav {
   float: left;
   padding-top: 10px;
   margin-left: 20px;
 }
 
-.top-bar .nav li {
+.top .top-bar .nav li {
   float: left;
   width: 90px;
 }
 
-.top-bar .nav li a {
+.top .top-bar .nav li a {
   display: inline-block;
   width: 100%;
   font-size: 16px;
@@ -37,16 +37,16 @@
   text-align: center;
 }
 
-.top-bar .nav li a:hover {
+.top .top-bar .nav li a:hover {
   color: #fc584e;
 }
 
-.top-bar .search {
+.top .top-bar .search {
   float: left;
   margin-top: 8px;
 }
 
-.top-bar .search input {
+.top .top-bar .search input {
   width: 300px;
   border: 2px solid #fc584e;
   padding: 5px 10px;
@@ -54,7 +54,7 @@
   margin-right: 5px;
 }
 
-.top-bar .search a {
+.top .top-bar .search a {
   display: inline-block;
   font-size: 22px;
   position: relative;
@@ -62,16 +62,16 @@
   transition: all .2s linear;
 }
 
-.top-bar .search a:hover {
+.top .top-bar .search a:hover {
   color: #fc584e;
 }
 
-.top-bar .login {
+.top .top-bar .login {
   float: right;
   margin-top: 18px;
 }
 
-.top-bar .login span {
+.top .top-bar .login span {
   padding: 3px 10px;
   border: 1px solid #fc584e;
   color: #fc584e;
@@ -81,7 +81,15 @@
   transition: all .2s linear;
 }
 
-.top-bar .login span:hover {
+.top .top-bar .login span:hover {
   color: white;
   background-color: #fc584e;
+}
+
+.top .shadow {
+  margin-top: 20px;
+  width: 100%;
+  height: 1px;
+  background: #d0d0d0;
+  box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.5);
 }

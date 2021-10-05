@@ -1,0 +1,208 @@
+.report-bar {
+  padding-bottom: 30px;
+}
+
+.report-bar .top .title {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.report-bar .top .nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.report-bar .top .nav span {
+  display: inline-block;
+  height: 50px;
+  line-height: 36px;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 10px 50px;
+  color: #a3a1a2;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.report-bar .report {
+  background: #f7f7f7;
+  padding-bottom: 30px;
+}
+
+.report-bar .report .main {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.report-bar .report .main .left {
+  float: left;
+  width: 700px;
+}
+
+.report-bar .report .main .left .new, .report-bar .report .main .left .hot {
+  margin-top: 30px;
+}
+
+.report-bar .report .main .left .new .one, .report-bar .report .main .left .hot .one {
+  width: 700px;
+  height: 413px;
+  border: 1px solid #dfdfdf;
+  box-sizing: content-box;
+  border-radius: 6px;
+  background: url(./../../img/bg1.jpg) no-repeat 0 0;
+  background-size: cover;
+  position: relative;
+}
+
+.report-bar .report .main .left .new .one .info, .report-bar .report .main .left .hot .one .info {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background: #f4efeb;
+  padding: 25px;
+  opacity: .8;
+}
+
+.report-bar .report .main .left .new .one .info p, .report-bar .report .main .left .hot .one .info p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.report-bar .report .main .left .new .one .info .info-left, .report-bar .report .main .left .hot .one .info .info-left {
+  float: left;
+}
+
+.report-bar .report .main .left .new .one .info .info-left span, .report-bar .report .main .left .hot .one .info .info-left span {
+  font-size: 12px;
+  color: #999;
+}
+
+.report-bar .report .main .left .new .one .info .info-left span:first-child, .report-bar .report .main .left .hot .one .info .info-left span:first-child {
+  width: 13px;
+  height: 18px;
+  display: inline-block;
+  background: url(./../../img/comma.png) no-repeat center center;
+  vertical-align: middle;
+}
+
+.report-bar .report .main .left .new .one .info .info-right, .report-bar .report .main .left .hot .one .info .info-right {
+  float: right;
+}
+
+.report-bar .report .main .left .new .one .info .info-right span, .report-bar .report .main .left .hot .one .info .info-right span {
+  font-size: 12px;
+  color: #999;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+.report-bar .report .main .left .new .one .info .info-right span:nth-child(1), .report-bar .report .main .left .hot .one .info .info-right span:nth-child(1) {
+  background: url(./../../img/zan.png) no-repeat 0 0;
+}
+
+.report-bar .report .main .left .new .one .info .info-right span:nth-child(3), .report-bar .report .main .left .hot .one .info .info-right span:nth-child(3) {
+  background: url(./../../img/reply.png) no-repeat 0 0;
+}
+
+.report-bar .report .main .left .new .link, .report-bar .report .main .left .hot .link {
+  padding: 15px 0;
+  border: 1px solid #dfdfdf;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.report-bar .report .main .left .new .link:hover, .report-bar .report .main .left .hot .link:hover {
+  color: white;
+  background: #fc584e;
+  transition: all .2s linear;
+}
+
+.report-bar .report .main .left .new .two, .report-bar .report .main .left .hot .two {
+  background: url(./../../img/bg2.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.report-bar .report .main .left .new .three, .report-bar .report .main .left .hot .three {
+  background: url(./../../img/bg3.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.report-bar .report .main .left .new .four, .report-bar .report .main .left .hot .four {
+  background: url(./../../img/bg4.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.report-bar .report .main .left .new .five, .report-bar .report .main .left .hot .five {
+  background: url(./../../img/bg5.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.report-bar .report .main .left .new .hot-one, .report-bar .report .main .left .hot .hot-one {
+  background: url(./../../img/bg8.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.report-bar .report .main .left .new .hot-two, .report-bar .report .main .left .hot .hot-two {
+  background: url(./../../img/bg7.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.report-bar .report .main .left .new .hot-three, .report-bar .report .main .left .hot .hot-three {
+  background: url(./../../img/bg6.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.report-bar .report .main .left .new .hot-four, .report-bar .report .main .left .hot .hot-four {
+  background: url(./../../img/bg5.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.report-bar .report .main .left .new .hot-five, .report-bar .report .main .left .hot .hot-five {
+  background: url(./../../img/bg4.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.report-bar .report .main .left .hot {
+  display: none;
+}
+
+.report-bar .report .main .right {
+  float: right;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.report-bar .report .main .right h1 {
+  font-size: 20px;
+  padding: 5px 10px;
+  border-left: 5px solid #fc584e;
+}
+
+.report-bar .report .main .right img {
+  margin-top: 15px;
+}
+
+.report-bar .report .main .right h2 {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.report-bar .report .main .right .txt {
+  font-size: 12px;
+  color: #999;
+  line-height: 20px;
+}
+
+.report-bar .report .main .right .bot {
+  margin-top: 60px;
+}

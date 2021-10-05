@@ -1,0 +1,439 @@
+.banner {
+  width: 100%;
+  background-color: black;
+}
+
+.banner .slides {
+  width: 1519px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner .slides .apply {
+  margin-top: 47px;
+  position: absolute;
+  top: 20px;
+  right: 140px;
+}
+
+.banner .slides .apply .title {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.banner .slides .apply div.info {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.banner .slides .apply div.info span {
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  font-size: 14px;
+  margin-right: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.banner .slides .apply .time {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.banner .slides .apply .btn {
+  width: 242px;
+  height: 48px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  line-height: 48px;
+  background-color: #fc584e;
+}
+
+.banner .slides .move {
+  animation: move 2s linear;
+}
+
+@keyframes move {
+  0% {
+    right: -200px;
+    top: -400px;
+  }
+  100% {
+    right: 140px;
+    top: 20px;
+  }
+}
+
+.detail-bar {
+  padding-bottom: 40px;
+}
+
+.detail-bar .top-bar {
+  width: 100%;
+  background: #f0f0f0;
+}
+
+.detail-bar .top-bar .top {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.detail-bar .top-bar .top h2 {
+  width: 50px;
+  font-size: 20px;
+  color: #333;
+  padding: 5px 10px;
+  box-sizing: content-box;
+  border-left: 5px solid #fc584e;
+  float: left;
+  margin-top: 10px;
+}
+
+.detail-bar .top-bar .top .list {
+  float: left;
+}
+
+.detail-bar .top-bar .top .list li {
+  float: left;
+  text-align: center;
+  margin-right: 140px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.detail-bar .top-bar .top .list li:hover {
+  border-bottom: 3px solid #fc584e;
+}
+
+.detail-bar .top-bar .top .list li:first-child {
+  margin-left: 60px;
+  border-bottom: 3px solid #fc584e;
+}
+
+.detail-bar .top-bar .top .list li:nth-child(1) > span {
+  width: 37px;
+  height: 37px;
+  display: inline-block;
+  background: url(./../../img/use1.png) no-repeat 0 0;
+}
+
+.detail-bar .top-bar .top .list li:nth-child(2) > span {
+  width: 37px;
+  height: 36px;
+  display: inline-block;
+  background: url(./../../img/use2.png) no-repeat 0 0;
+}
+
+.detail-bar .top-bar .top .list li:nth-child(3) > span {
+  width: 45px;
+  height: 36px;
+  display: inline-block;
+  background: url(./../../img/use3.png) no-repeat 0 0;
+}
+
+.detail-bar .top-bar .top .list li:nth-child(4) > span {
+  width: 31px;
+  height: 37px;
+  display: inline-block;
+  background: url(./../../img/use4.png) no-repeat 0 0;
+}
+
+.detail-bar .top-bar .top .list li:nth-child(5) > span {
+  width: 35px;
+  height: 36px;
+  display: inline-block;
+  background: url(./../../img/use5.png) no-repeat 0 0;
+}
+
+.detail-bar .top-bar .top .list li p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
+}
+
+.detail-bar .main-bar {
+  margin-top: 20px;
+}
+
+.detail-bar .main-bar .main {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.detail-bar .main-bar .main .left {
+  width: 700px;
+  float: left;
+}
+
+.detail-bar .main-bar .main .left h1 {
+  font-size: 20px;
+  padding: 5px 10px;
+  border-left: 5px solid #fc584e;
+}
+
+.detail-bar .main-bar .main .left p.title {
+  font-weight: bold;
+  color: #fc584e;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.detail-bar .main-bar .main .left .txt {
+  font-size: 14px;
+  color: #333;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.detail-bar .main-bar .main .left img {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.detail-bar .main-bar .main .left h3 {
+  font-size: 16px;
+  color: #005db8;
+  margin: 30px 0;
+}
+
+.detail-bar .main-bar .main .left .two {
+  margin-top: 30px;
+}
+
+.detail-bar .main-bar .main .left .err {
+  font-size: 14px;
+  color: #1b90c6;
+  margin-top: 34px;
+}
+
+.detail-bar .main-bar .main .left h4 {
+  font-size: 16px;
+  color: #f20201;
+  margin-top: 34px;
+  font-weight: 600;
+}
+
+.detail-bar .main-bar .main .left ul {
+  margin-top: 10px;
+}
+
+.detail-bar .main-bar .main .left ul li {
+  padding: 5px 0;
+}
+
+.detail-bar .main-bar .main .left ul li span:nth-child(1) {
+  font-weight: 600;
+}
+
+.detail-bar .main-bar .main .right {
+  float: right;
+  width: 300px;
+}
+
+.detail-bar .main-bar .main .right h1 {
+  font-size: 20px;
+  padding: 5px 10px;
+  border-left: 5px solid #fc584e;
+}
+
+.detail-bar .main-bar .main .right .price {
+  color: #fc584e;
+  font-size: 36px;
+  margin: 40px 0 30px 0;
+}
+
+.detail-bar .main-bar .main .right .btn {
+  color: white;
+  background: #fc584e;
+  font-size: 20px;
+  border-radius: 6px;
+  width: 270px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+}
+
+.detail-bar .main-bar .main .right .from {
+  width: 270px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.detail-bar .main-bar .main .right img {
+  margin-top: 15px;
+}
+
+.detail-bar .main-bar .main .right h2 {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.detail-bar .main-bar .main .right .txt {
+  font-size: 12px;
+  color: #999;
+  line-height: 20px;
+}
+
+.detail-bar .main-bar .main .right .bot {
+  margin-top: 60px;
+}
+
+.detail-bar .goods {
+  width: 1080px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.detail-bar .goods .title h1 {
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.detail-bar .goods .title p {
+  float: right;
+  cursor: pointer;
+}
+
+.detail-bar .goods .title p span:nth-child(1) {
+  font-size: 14px;
+  color: #fc584e;
+}
+
+.detail-bar .goods .title p span:nth-child(2) {
+  width: 12px;
+  height: 10px;
+  display: inline-block;
+  background: url(./../../img/readMore.png) no-repeat 0 0;
+}
+
+.detail-bar .goods .list {
+  margin-top: 20px;
+}
+
+.detail-bar .goods .list li {
+  margin-top: 30px;
+  float: left;
+  width: 220px;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  padding-bottom: 15px;
+  border-radius: 6px;
+  margin-right: 48px;
+  transition: all .3s linear;
+  position: relative;
+}
+
+.detail-bar .goods .list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.detail-bar .goods .list li img {
+  width: 218px;
+  height: 130px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.detail-bar .goods .list li .message {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 20px;
+  height: 40px;
+  padding: 0 5px;
+}
+
+.detail-bar .goods .list li p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.detail-bar .goods .list li p span {
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.detail-bar .goods .list li p span:nth-child(1) {
+  margin-right: 10px;
+}
+
+.detail-bar .goods .list li .num {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.detail-bar .goods .list li .num span:nth-child(1) {
+  color: #ff4e21;
+  font-size: 14px;
+}
+
+.detail-bar .goods .list li .num span:nth-child(2) {
+  color: black;
+  font-size: 14px;
+}
+
+.detail-bar .goods .list li .time {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.detail-bar .goods .list li .log {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.detail-bar .goods .list li:nth-child(1) .log, .detail-bar .goods .list li:nth-child(3) .log, .detail-bar .goods .list li:nth-child(4) .log {
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 5px;
+  background: #ff4e4a;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.detail-bar .goods .list li:nth-child(1) p span, .detail-bar .goods .list li:nth-child(3) p span, .detail-bar .goods .list li:nth-child(4) p span {
+  color: #ff4e21;
+  border: 1px solid #ff4e21;
+}
+
+.detail-bar .goods .list li:nth-child(1) .time, .detail-bar .goods .list li:nth-child(3) .time, .detail-bar .goods .list li:nth-child(4) .time {
+  color: #ff4e21;
+}
+
+.detail-bar .goods .list li:nth-child(2) .log {
+  color: #beae97;
+  font-size: 12px;
+  padding: 3px 5px;
+  background: #fcf5c7;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.detail-bar .goods .list li:nth-child(2) p span {
+  color: #7acc68;
+  border: 1px solid #7acc68;
+}
+
+.detail-bar .goods .list li:nth-child(2) .time {
+  color: #7acc68;
+}
