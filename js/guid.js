@@ -20,7 +20,7 @@ $(function () {
     function getGoods() {
         $.ajax({
             type: "get",
-            url: "http://192.168.43.66:3000/guid/new",
+            url: "http://192.168.1.45:3000/guid/new",
             dataType: "json",
             success: function (response) {
 
@@ -51,7 +51,7 @@ $(function () {
 
                             $.ajax({
                                 type: "get",
-                                url: "http://192.168.43.66:3000/guid/new",
+                                url: "http://192.168.1.45:3000/guid/new",
                                 dataType: "json",
                                 success: function (response) {
                                     var sum = response.length;
@@ -93,7 +93,7 @@ $(function () {
     function getNewGoods() {
         $.ajax({
             type: "get",
-            url: "http://192.168.43.66:3000/guid/new",
+            url: "http://192.168.1.45:3000/guid/new",
             dataType: "json",
             success: function (response) {
 
@@ -125,7 +125,7 @@ $(function () {
 
                             $.ajax({
                                 type: "get",
-                                url: "http://192.168.43.66:3000/guid/new",
+                                url: "http://192.168.1.45:3000/guid/new",
                                 dataType: "json",
                                 success: function (response) {
                                     var sum = response.length;
@@ -168,7 +168,7 @@ $(function () {
     function getHotGoods() {
         $.ajax({
             type: "get",
-            url: "http://192.168.43.66:3000/guid/hot",
+            url: "http://192.168.1.45:3000/guid/hot",
             dataType: "json",
             success: function (response) {
 
@@ -200,7 +200,7 @@ $(function () {
 
                             $.ajax({
                                 type: "get",
-                                url: "http://192.168.43.66:3000/guid/hot",
+                                url: "http://192.168.1.45:3000/guid/hot",
                                 dataType: "json",
                                 success: function (response) {
                                     var sum = response.length;

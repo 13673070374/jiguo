@@ -71,6 +71,12 @@
                 <span>试用中</span>
                 <span>结束</span>
             </div>
+            <div class="small-two-nav">
+                <span>全部</span>
+                <span>申请中</span>
+                <span>试用中</span>
+                <span>结束</span>
+            </div>
         </div>
 
         <div class="use">
@@ -86,35 +92,55 @@
 
             <div class="nomore">没有更多数据了</div>
 
-            <div class="more">
-                <span></span>
-                点击加载更多
+            <!-- 全部的点击加载更多按钮 -->
+            <div class="all-mores">
+                <!-- 初始化 -->
+                <div class="more">
+                    <span></span>
+                    点击加载更多
+                </div>
+                <!-- 免费试用的全部 -->
+                <div class="all-more">
+                    <span></span>
+                    点击加载更多
+                </div>
+                <!-- 免费试用的正在申请 -->
+                <div class="replay-more">
+                    <span></span>
+                    点击加载更多
+                </div>
+                <!-- 免费试用的正在体验 -->
+                <div class="using-more">
+                    <span></span>
+                    点击加载更多
+                </div>
+                <!-- 免费试用的结束 -->
+                <div class="end-more">
+                    <span></span>
+                    点击加载更多
+                </div>
+                <!-- 体验师的全部 -->
+                <div class="exper-more">
+                    <span></span>
+                    点击加载更多
+                </div>
+                <!-- 体验师的正在申请 -->
+                <div class="exper-replay">
+                    <span></span>
+                    点击加载更多
+                </div>
+                <!-- 体验师的正在使用 -->
+                <div class="exper-using">
+                    <span></span>
+                    点击加载更多
+                </div>
+                <!-- 体验师的结束 -->
+                <div class="exper-end">
+                    <span></span>
+                    点击加载更多
+                </div>
             </div>
 
-            <div class="all-more">
-                <span></span>
-                点击加载更多
-            </div>
-
-            <div class="replay-more">
-                <span></span>
-                点击加载更多
-            </div>
-
-            <div class="using-more">
-                <span></span>
-                点击加载更多
-            </div>
-
-            <div class="end-more">
-                <span></span>
-                点击加载更多
-            </div>
-
-            <div class="exper-more">
-                <span></span>
-                点击加载更多
-            </div>
         </div>
     </div>
 
@@ -222,7 +248,7 @@
     <script>
         var $nav_a = $('.nav>li>a');
         $nav_a.eq(3).css({
-            color:'#fc584e'
+            color: '#fc584e'
         })
     </script>
 </body>

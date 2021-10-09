@@ -150,7 +150,7 @@
 }
 
 .hot-bar .hot .hot-goods .visib {
-  width: 980px;
+  width: 940px;
   height: 300px;
   overflow: hidden;
   margin: 0 auto;
@@ -159,7 +159,7 @@
 
 .hot-bar .hot .hot-goods .visib .hot-list {
   position: absolute;
-  left: -250px;
+  left: -720px;
   top: 0px;
 }
 
@@ -168,7 +168,7 @@
   width: 220px;
   border: 1px solid #dfdfdf;
   border-radius: 6px;
-  margin-right: 30px;
+  margin-right: 20px;
   position: relative;
   cursor: pointer;
 }

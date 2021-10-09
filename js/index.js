@@ -162,7 +162,7 @@ $(function () {
 
     $.ajax({
         type: "get",
-        url: "http://192.168.43.66:3000/report/hot",
+        url: "http://192.168.1.45:3000/report/hot",
         dataType: "json",
         success: function (response) {
             get(response);
@@ -217,7 +217,7 @@ $(function () {
             var alltime = 400; //li移动的总时间
             var everytime = 20; // li移动的间隔时间
             var liscount = $lis.length;//li实际数量
-            var page_width = 250;//一页的宽度
+            var page_width = 240;//一页的宽度
             var move = false; //图片移动的状态
             $next.on('click', function () {
                 nextPage(true);
@@ -226,6 +226,31 @@ $(function () {
             $prev.on('click', function () {
                 nextPage(false);
             });
+
+            //自动滚动
+            //自动循环播放轮播图
+            var timer;
+            document.addEventListener('visibilitychange', function () {
+                if (document.visibilityState == 'hidden') {
+                    clearInterval(timer);
+                }
+
+                if (document.visibilityState == 'visible') {
+                    timer = setInterval(function () {
+                        nextPage(true);
+                    }, 3000);
+                }
+            });
+
+            // 鼠标移入时停止，离开时开始
+            $hot_goods.hover(function () {
+                clearInterval(timer)
+            }, function () {
+                timer = setInterval(function () {
+                    nextPage(true);
+                }, 3000);
+            })
+
 
             function nextPage(next) {
 
@@ -248,24 +273,28 @@ $(function () {
 
                         move = false;
 
-                        if (parseInt(currleft) === -((liscount - 3) * page_width)) {
-                            currleft = -page_width * 2;
+                        if (Math.round(currleft) === -((liscount - 3) * page_width)) {
+                            currleft = -page_width * 3;
                         } else if (parseInt(currleft) === 0) {
-                            currleft = -((liscount - 5) * page_width);
+                            currleft = -((liscount - 6) * page_width);
                         }
                     }
+
                     $hot_list.css('left', currleft);
                 }, everytime);
+                console.log(currleft);
             }
         }
     });
+
+
 
     function get(res) {
         var html = template("mov", {
             value: res
         });
 
-        $hot_list.children('li:first').after(html);
+        $hot_list.children('li:eq(2)').after(html);
 
     }
 
@@ -273,7 +302,7 @@ $(function () {
     var $new_list = $('.new-list');
     $.ajax({
         type: "get",
-        url: "http://192.168.43.66:3000/report/new",
+        url: "http://192.168.1.45:3000/report/new",
         dataType: "json",
         success: function (response) {
             //初始化渲染页面
@@ -296,7 +325,7 @@ $(function () {
 
                     $.ajax({
                         type: "get",
-                        url: "http://192.168.43.66:3000/report/new",
+                        url: "http://192.168.1.45:3000/report/new",
                         dataType: "json",
                         success: function (response) {
                             var sum = response.length;
@@ -336,7 +365,7 @@ $(function () {
     var $guid_list = $('.guid-list');
     $.ajax({
         type: "get",
-        url: "http://192.168.43.66:3000/guid/new",
+        url: "http://192.168.1.45:3000/guid/new",
         dataType: "json",
         success: function (response) {
             var html = template("guid", {
@@ -361,7 +390,7 @@ $(function () {
 
                     $.ajax({
                         type: "get",
-                        url: "http://192.168.43.66:3000/guid/new",
+                        url: "http://192.168.1.45:3000/guid/new",
                         dataType: "json",
                         success: function (response) {
                             var guid_sum = response.length;
@@ -397,7 +426,7 @@ $(function () {
     var arr = [];
     $.ajax({
         type: "get",
-        url: "http://192.168.43.66:3000/play/new",
+        url: "http://192.168.1.45:3000/play/new",
         dataType: "json",
         success: function (response) {
             $.each(response, function (index, item) {
@@ -429,7 +458,7 @@ $(function () {
 
                     $.ajax({
                         type: "get",
-                        url: "http://192.168.43.66:3000/play/new",
+                        url: "http://192.168.1.45:3000/play/new",
                         dataType: "json",
                         success: function (response) {
                             var play_sum = arr.length;

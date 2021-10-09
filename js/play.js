@@ -23,7 +23,7 @@ $(function () {
         var arr = [];
         $.ajax({
             type: "get",
-            url: "http://192.168.43.66:3000/play/new",
+            url: "http://192.168.1.45:3000/play/new",
             dataType: "json",
             success: function (response) {
                 $.each(response, function (index, item) {
@@ -52,7 +52,7 @@ $(function () {
 
                         $.ajax({
                             type: "get",
-                            url: "http://192.168.43.66:3000/play/new",
+                            url: "http://192.168.1.45:3000/play/new",
                             dataType: "json",
                             success: function (response) {
                                 var play_sum = arr.length;
@@ -94,7 +94,7 @@ $(function () {
         var arr = [];
         $.ajax({
             type: "get",
-            url: "http://192.168.43.66:3000/play/new",
+            url: "http://192.168.1.45:3000/play/new",
             dataType: "json",
             success: function (response) {
                 $.each(response, function (index, item) {
@@ -125,7 +125,7 @@ $(function () {
 
                         $.ajax({
                             type: "get",
-                            url: "http://192.168.43.66:3000/play/new",
+                            url: "http://192.168.1.45:3000/play/new",
                             dataType: "json",
                             success: function (response) {
                                 var play_sum = arr.length;
@@ -167,7 +167,7 @@ $(function () {
         var arr = [];
         $.ajax({
             type: "get",
-            url: "http://192.168.43.66:3000/play/hot",
+            url: "http://192.168.1.45:3000/play/hot",
             dataType: "json",
             success: function (response) {
                 $.each(response, function (index, item) {
@@ -199,7 +199,7 @@ $(function () {
 
                         $.ajax({
                             type: "get",
-                            url: "http://192.168.43.66:3000/play/new",
+                            url: "http://192.168.1.45:3000/play/new",
                             dataType: "json",
                             success: function (response) {
                                 var play_sum = arr.length;

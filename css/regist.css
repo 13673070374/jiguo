@@ -69,6 +69,7 @@
 .login-bar .login form .num-icon input {
   width: 245px;
   height: 50px;
+  float: left;
 }
 
 .regist-bar .regist form .img-icon .icon,
@@ -79,14 +80,14 @@
   width: 130px;
   height: 50px;
   font-size: 20px;
-  display: inline-block;
   text-align: center;
   line-height: 44px;
   border: 1px solid #dfdfdf;
   box-sizing: border-box;
   border-radius: 6px;
-  margin-left: 20px;
+  margin-left: 25px;
   cursor: pointer;
+  float: left;
 }
 
 .regist-bar .regist form .num-icon .icon, .regist-bar .login form .num-icon .icon, .login-bar .regist form .num-icon .icon, .login-bar .login form .num-icon .icon {

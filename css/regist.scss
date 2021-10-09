@@ -60,20 +60,21 @@ $color:#fc584e;
                 input {
                     width: 245px;
                     height: 50px;
+                    float: left;
                 }
 
                 .icon {
                     width: 130px;
                     height: 50px;
                     font-size: 20px;
-                    display: inline-block;
                     text-align: center;
                     line-height: 44px;
                     border: 1px solid #dfdfdf;
                     box-sizing: border-box;
                     border-radius: 6px;
-                    margin-left: 20px;
+                    margin-left: 25px;
                     cursor: pointer;
+                    float: left;
                 }
             }
 

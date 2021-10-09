@@ -31,7 +31,7 @@ $color:#fc584e;
             }
         }
 
-        .small-nav {
+        .small-nav,.small-two-nav {
             text-align: center;
             margin-top: 20px;
 
@@ -48,6 +48,7 @@ $color:#fc584e;
     .use {
         background: #f7f7f7;
         padding-bottom: 30px;
+
         .use-list {
             width: $width;
             margin: $auto;
@@ -137,26 +138,24 @@ $color:#fc584e;
         }
     }
 
-    .all-more,
-    .replay-more,
-    .using-more,
-    .end-more ,
-    .more,
-    .exper-more{
-        font-size: 16px;
-        color: $color;
-        text-align: center;
-        margin-top: 40px;
-        padding: 10px 0;
-        cursor: pointer;
+    .all-mores {
+        div {
+            font-size: 16px;
+            color: $color;
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px 0;
+            cursor: pointer;
 
-        span {
-            width: 16px;
-            height: 8px;
-            display: inline-block;
-            background: url(./../../img/more.png) no-repeat 0 0;
-            margin-right: 5px;
+            span {
+                width: 16px;
+                height: 8px;
+                display: inline-block;
+                background: url(./../../img/more.png) no-repeat 0 0;
+                margin-right: 5px;
+            }
         }
+
     }
 
     .load {

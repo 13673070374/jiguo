@@ -27,12 +27,12 @@
   cursor: pointer;
 }
 
-.use-bar .top .small-nav {
+.use-bar .top .small-nav, .use-bar .top .small-two-nav {
   text-align: center;
   margin-top: 20px;
 }
 
-.use-bar .top .small-nav span {
+.use-bar .top .small-nav span, .use-bar .top .small-two-nav span {
   display: inline-block;
   padding: 0 10px;
   margin: 0 40px;
@@ -130,12 +130,7 @@
   right: 0px;
 }
 
-.use-bar .all-more,
-.use-bar .replay-more,
-.use-bar .using-more,
-.use-bar .end-more,
-.use-bar .more,
-.use-bar .exper-more {
+.use-bar .all-mores div {
   font-size: 16px;
   color: #fc584e;
   text-align: center;
@@ -144,12 +139,7 @@
   cursor: pointer;
 }
 
-.use-bar .all-more span,
-.use-bar .replay-more span,
-.use-bar .using-more span,
-.use-bar .end-more span,
-.use-bar .more span,
-.use-bar .exper-more span {
+.use-bar .all-mores div span {
   width: 16px;
   height: 8px;
   display: inline-block;
